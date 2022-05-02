@@ -1,15 +1,14 @@
-import React from 'react'
+import Heading from "./Heading"
 
 function Biography() {
 	return (
 		<section id="biography" className="bg-primary/3 dark:bg-white/3 py-20">
 			<div className="container">
 
-				{/* Heading */}
-				<div className="mb-12 md:mb-20">
-					<p className="text-sm uppercase opacity-80">Biography</p>
-					<h2 className="w-max text-4xl lg:text-5xl font-bold mt-2 relative after:content-[''] after:h-7 after:bg-primary/15 after:absolute after:-bottom-1.5 after:-left-2 after:-right-2 after:-z-10 dark:after:bg-white/15">Biography</h2>
-				</div>
+				<Heading
+					subheading="About me"
+					heading="Biography"
+				/>
 
 				<div className="grid md:grid-cols-4 gap-10 md:gap-6">
 

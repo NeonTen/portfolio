@@ -54,7 +54,7 @@ function Me() {
                         <img className='hidden lg:block absolute bottom-44 -right-9' src={Pattern2} alt=""/>
 
                         <div className="flex md:space-x-8 mt-10 lg:mt-0 lg:absolute bottom-12 -left-64">
-                            <a href="#biography" className="hidden md:flex items-center space-x-2 text-sm uppercase opacity-80"><IoIosArrowDropdown size={24} /> <span>Explore me</span></a>
+                            <a href="#biography" className="hidden md:flex items-center space-x-2 text-sm uppercase opacity-80 hover:text-secondary hover:opacity-100"><IoIosArrowDropdown size={24} /> <span>Explore me</span></a>
                             <a href={CV} className="button w-48 justify-between" download>Download CV <HiOutlineFolderDownload size={24} /></a>
                         </div>
                     </div>

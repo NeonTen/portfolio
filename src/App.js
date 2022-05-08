@@ -1,9 +1,11 @@
-import Header from './components/Header'
+import Header from './components/header/Header'
 import Biography from './components/Biography'
 import Me from './components/Me'
-import Projects from './components/Projects'
-import Skills from './components/Skills'
-import Expertise from './components/Expertise'
+import Projects from './components/projects/Projects'
+import Skills from './components/skills/Skills'
+import Expertise from './components/experience/Expertise'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
 	return (
@@ -14,6 +16,8 @@ function App() {
 			<Projects />
 			<Skills />
 			<Expertise />
+			<Contact />
+			<Footer />
 		</>
 	);
 }

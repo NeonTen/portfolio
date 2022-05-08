@@ -10,25 +10,21 @@ function Biography() {
 					heading="Biography"
 				/>
 
-				<div className="grid md:grid-cols-4 gap-10 md:gap-6">
+				<div className="grid md:grid-cols-4 gap-10 md:gap-6 items-start">
 
 					{/* Sidebar */}
-					<div className="grid grid-cols-2 md:grid-cols-1 gap-6 items-start">
-						<div className="grid gap-3">
-							<p className="font-bold uppercase">Birthday</p>
-							<p className="text-sm">10 July 1987</p>
-						</div>
+					<div className="grid grid-cols-2 md:grid-cols-1 gap-6">
 						<div className="grid gap-3">
 							<p className="font-bold uppercase">Nationality</p>
 							<p className="text-sm">Indian</p>
 						</div>
 						<div className="grid gap-3">
-							<p className="font-bold uppercase">Relationship</p>
-							<p className="text-sm">Married</p>
-						</div>
-						<div className="grid gap-3">
 							<p className="font-bold uppercase">Languages</p>
 							<p className="text-sm">English & Hindi</p>
+						</div>
+						<div className="grid gap-3">
+							<p className="font-bold uppercase">Relationship</p>
+							<p className="text-sm">Married</p>
 						</div>
 					</div>
 

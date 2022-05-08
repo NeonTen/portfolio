@@ -1,6 +1,6 @@
 function Project( props ) {
     return (
-        <div className="project text-center relative group">
+        <div className="project text-center shadow-2xl relative group">
             <div className="w-full">
                 <img className="w-full h-full aspect-square object-cover" src={props.img} alt={props.name} />
             </div>
@@ -9,7 +9,7 @@ function Project( props ) {
                 <p className="text-xl font-bold text-white uppercase">{props.name}</p>
                 <div className="flex justify-center space-x-2 mt-4">
                     {/* <a href="" className="button">Github</a> */}
-                    <a href={props.url} className="button" target="_blank" rel="noreferrer">View Demo</a>
+                    <a href={props.url} className="button h-10" target="_blank" rel="noreferrer">View Demo</a>
                 </div>
             </div>
         </div>

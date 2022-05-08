@@ -1,4 +1,4 @@
-import Heading from './Heading'
+import Heading from '../Heading'
 import Skill from './Skill'
 
 function Biography() {
@@ -8,7 +8,7 @@ function Biography() {
 
 				<Heading
 					subheading="Skills"
-					heading="Tools and Technologies"
+					heading="Tools & Technologies"
 				/>
 
 				<div className="grid md:grid-cols-5 lg:grid-cols-4 gap-10 md:gap-6 items-start">

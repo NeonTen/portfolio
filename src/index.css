@@ -18,12 +18,21 @@
 		font-family: 'Roboto Slab', serif;
 	}
 	.button {
-		@apply text-sm bg-white hover:bg-secondary text-dark/80 hover:text-white border border-border-color hover:border-secondary w-max h-14 flex justify-center items-center px-6 uppercase;
+		@apply text-sm bg-white hover:bg-secondary text-dark/80 hover:text-white border border-border-color hover:border-secondary w-max h-14 flex justify-center items-center px-6 uppercase transition-all;
 	}
 	strong {
 		@apply font-bold;
 	}
 	a {
 		@apply transition;
+	}
+	[type='text'],
+	[type='email'],
+	[type='tel'],
+	textarea {
+		@apply w-full text-sm placeholder:uppercase bg-transparent border-border-color focus:border-primary/60 focus:outline-none focus:ring-0 px-5 py-3.5 dark:placeholder:text-white/80;
+	}
+	nav .active {
+		@apply text-secondary after:content-[''] after:w-1.5 after:h-1.5 after:bg-secondary after:rounded-full after:absolute after:top-0.5 after:-right-2;
 	}
 }

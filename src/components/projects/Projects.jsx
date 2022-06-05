@@ -10,7 +10,7 @@ import outlet from '../../assets/outlet.jpg'
 import technologist from '../../assets/technologist.jpg'
 import agency from '../../assets/agency.jpg'
 import magnus from '../../assets/magnus.jpg'
-import news from '../../assets/technologist.jpg'
+import news from '../../assets/news.jpg'
 import seekers from '../../assets/seekers.jpg'
 
 function Projects() {

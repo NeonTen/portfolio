@@ -31,14 +31,25 @@ function Biography() {
 					{/* Content */}
 					<div className="content md:col-span-3 grid gap-6">
 						<p>
-							Pellentesque iaculis penatibus sit vestibulum dictum consequat lorem aliquam. Nam nisi, viverra purus ac nibh mattis. Neque elit tristique ullamcorper id luctus sed massa volutpat tempus. Sagittis rhoncus elementum maecenas ridiculus. Maecenas mi, lacinia turpis nulla nec. Sed neque, tempor sed faucibus blandit cursus ipsum erat.
+							I am an experienced and passionate WordPress Developer who have good communication skills and ability to communicate with clients. I can create a WordPress Theme from scratch using minimal plugins in order to avoid conflicts.
 						</p>
 						<p>
-							Pellentesque viverra senectus donec leo pulvinar euismod convallis. Ut enim sem dolor tristique ornare ut consequat. Nisl id eget massa arcu netus. Tincidunt tincidunt nec consectetur bibendum in sem volutpat amet in. Quam sed amet venenatis tincidunt. Ullamcorper cursus sit in quis sagittis cursus turpis sed id.
+							I am also highly trained as UI/UX Designer. My custom-built websites are fast loading, accessible, follow coding standards, clean, commented and easy to manage.
 						</p>
-						<p className="font-bold italic">
-							Nulla ultricies imperdiet dignissim purus metus ac elementum. Proin neque tincidunt dui mattis ac enim proin elit scelerisque.
+						<p className="font-bold">
+							These are some key skills, I am good at:
 						</p>
+						<ul className="list-inside list-disc space-y-1">
+							<li>A deep understanding of mobile-first and responsive development</li>
+							<li>Ability to convert comprehensive layout and wireframes into working HTML/CSS/WordPress</li>
+							<li>Knowledge of how to interact with RESTful APIs and formats (JSON, XML)</li>
+							<li>Knowledge of version control, specifically Github</li>
+							<li>Knowledge of debugging tools like Firebug, Chrome inspector, etc</li>
+							<li>Ability to work on multiple projects</li>
+							<li>Find and address performance issues</li>
+							<li>Ability to both work autonomously and as part of a team</li>
+							<li>Can code cleaner, shorter and re-usable</li>
+						</ul>
 					</div>
 
 				</div>

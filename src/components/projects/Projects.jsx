@@ -1,6 +1,8 @@
 import Heading from '../Heading'
 import Project from './Project'
 import kavanagh from '../../assets/kavanagh.jpg'
+import hgash from '../../assets/hgash.jpg'
+import netbiz from '../../assets/netbiz.jpg'
 import square from '../../assets/square.jpg'
 import church from '../../assets/church.jpg'
 import books from '../../assets/books.jpg'
@@ -28,42 +30,52 @@ function Projects() {
 					<Project
 						img={kavanagh}
 						name="Kavanagh"
-						url="https://kavanagh.fyrefli.ie/"
+						url="https://mesajid.com/projects/kavanagh/"
+					/>
+					<Project
+						img={hgash}
+						name="HG Ash"
+						url="https://www.hgash.co.uk/"
+					/>
+					<Project
+						img={netbiz}
+						name="Netbiz CMS"
+						url="https://mesajid.com/projects/netbizcms/"
 					/>
 					<Project
 						img={square}
 						name="Square"
-						url="https://demo.mythemeshop.com/square-beta/"
+						url="https://mesajid.com/projects/square/"
 					/>
 					<Project
 						img={church}
 						name="Church"
-						url="https://demo.mythemeshop.com/church/"
+						url="https://mesajid.com/projects/church/"
 					/>
 					<Project
 						img={books}
 						name="Books"
-						url="https://demo.mythemeshop.com/books/"
+						url="https://mesajid.com/projects/books/"
 					/>
 					<Project
 						img={agency}
 						name="Agency"
-						url="https://demo.mythemeshop.com/agency/"
+						url="https://mesajid.com/projects/agency/"
 					/>
 					<Project
 						img={magnus}
 						name="magnus"
-						url="https://demo.mythemeshop.com/magnus/"
+						url="https://mesajid.com/projects/magnus/"
 					/>
 					<Project
 						img={news}
 						name="News"
-						url="https://demo.mythemeshop.com/news/"
+						url="https://mesajid.com/projects/news/"
 					/>
 					<Project
 						img={seekers}
 						name="Seekers"
-						url="https://demo.mythemeshop.com/seekers/"
+						url="https://mesajid.com/projects/seekers/"
 					/>
 					{/* <div className="col-span-full grid justify-center mt-6">
 						<button className="button">Show More</button>
@@ -71,22 +83,22 @@ function Projects() {
 					<Project
 						img={designer}
 						name="Designer"
-						url="https://demo.mythemeshop.com/designer/"
+						url="https://mesajid.com/projects/designer/"
 					/>
 					<Project
 						img={realEstate}
 						name="Real Estate"
-						url="https://demo.mythemeshop.com/real-estate/"
+						url="https://mesajid.com/projects/real-estate/"
 					/>
 					<Project
 						img={outlet}
 						name="Outlet"
-						url="https://demo.mythemeshop.com/outlet/"
+						url="https://mesajid.com/projects/outlet/"
 					/>
 					<Project
 						img={technologist}
 						name="Technologist"
-						url="https://demo.mythemeshop.com/technologist/"
+						url="https://mesajid.com/projects/technologist/"
 					/>
 
 				</div>

@@ -26,7 +26,7 @@ function Me() {
                         </div>
                         <p className="text-lg font-bold uppercase mt-14">Full Stack WordPress Developer</p>
                         <p className="mt-4 leading-relaxed opacity-80">
-                            I've been a WordPress developer for 8+ years. I live and breathe WordPress.
+                            I've been a WordPress developer for 9+ years. I live and breathe WordPress.
                         </p>
                         <ul className="flex gap-6 mt-10 2xl:mt-14 text-sm opacity-80">
                             <li>

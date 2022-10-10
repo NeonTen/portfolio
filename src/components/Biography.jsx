@@ -31,10 +31,10 @@ function Biography() {
 					{/* Content */}
 					<div className="content md:col-span-3 grid gap-6">
 						<p>
-							I am an experienced and passionate WordPress Developer who have good communication skills and ability to communicate with clients. I can create a WordPress Theme from scratch using minimal plugins in order to avoid conflicts.
+							I am an experienced and passionate WordPress Developer who has good communication skills and ability to communicate with clients. I can create a WordPress Theme from scratch using minimal plugins in order to avoid conflicts.
 						</p>
 						<p>
-							I am also highly trained as UI/UX Designer. My custom-built websites are fast loading, accessible, follow coding standards, clean, commented and easy to manage.
+							I am also highly trained as a UI/UX Designer. My custom-built websites are fast loading, accessible, follow coding standards, clean, commented and easy to manage.
 						</p>
 						<p className="font-bold">
 							These are some key skills, I am good at:

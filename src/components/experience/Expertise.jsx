@@ -11,15 +11,23 @@ function Expertise() {
 					heading="Experience"
 				/>
 
-				<Experience
+				{/* <Experience
 					year="2021 - Present"
 					job="Freelance"
 					desc="Working on some Freelance projects and contract based job including WordPress and UI/UX development. Also learning new technologies to increase my skills."
+				/> */}
+				<Experience
+					year="2021 - Present"
+					job="WordPress Developer"
+					desc="Currently I am working on Fyrefly(startup company) where my role's are to develope new WordPress Themes from scratch, add/modify new functionality into previous sites and testing/maintainence of all sites."
+					company="Fyrefly"
+					siteLink="https://fyrefli.ie/"
+					siteName="Website"
 				/>
 				<Experience
 					year="2017 - 2021"
 					job="Full Stack WordPress Developer"
-					desc="My recent job was in MyThemeShop, and my role is to design and develop custom Themes which is fast, SEO optimized and follows WordPress Coding Standards. I have to create a design in Photoshop/XD/Figma then convert
+					desc="My longest job was in MyThemeShop, and my role is to design and develop custom Themes which is fast, SEO optimized and follows WordPress Coding Standards. I have to create a design in Photoshop/XD/Figma then convert
 					into WordPress."
 					company="MyThemeShop"
 					siteLink="https://mythemeshop.com/"

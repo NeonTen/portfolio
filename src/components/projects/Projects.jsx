@@ -1,5 +1,9 @@
 import Heading from '../Heading'
 import Project from './Project'
+import cardway from '../../assets/cardway.jpg'
+import dda from '../../assets/dda.jpg'
+import lawtech from '../../assets/lawtech.jpg'
+import rms from '../../assets/rms.jpg'
 import kavanagh from '../../assets/kavanagh.jpg'
 import hgash from '../../assets/hgash.jpg'
 import netbiz from '../../assets/netbiz.jpg'
@@ -28,9 +32,19 @@ function Projects() {
 				<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
 					<Project
-						img={kavanagh}
-						name="Kavanagh"
-						url="https://mesajid.com/projects/kavanagh/"
+						img={cardway}
+						name="Cardway"
+						url="https://netbiz:newsite@s1.cardway.netbizpreview.co.uk/"
+					/>
+					<Project
+						img={dda}
+						name="Direct Data Analysis"
+						url="https://netbiz:newsite@s1.directdataanalysis.netbizpreview.co.uk/"
+					/>
+					<Project
+						img={lawtech}
+						name="LawTech"
+						url="https://netbiz:newsite@s1.lawtech.netbizpreview.co.uk/"
 					/>
 					<Project
 						img={hgash}
@@ -40,7 +54,17 @@ function Projects() {
 					<Project
 						img={netbiz}
 						name="Netbiz CMS"
-						url="https://mesajid.com/projects/netbizcms/"
+						url="https://netbiz:newsite@s1.newcms.netbizpreview.co.uk"
+					/>
+					<Project
+						img={rms}
+						name="RMS"
+						url="https://rms-ltd.com/"
+					/>
+					<Project
+						img={kavanagh}
+						name="Kavanagh"
+						url="https://mesajid.com/projects/kavanagh/"
 					/>
 					<Project
 						img={square}

@@ -20,6 +20,9 @@
 	.button {
 		@apply text-sm bg-white hover:bg-secondary text-dark/80 hover:text-white border border-border-color hover:border-secondary w-max h-14 flex justify-center items-center px-6 uppercase transition-all;
 	}
+	.button.button-reverse {
+		@apply bg-secondary hover:bg-white text-white hover:text-dark/80 border-secondary hover:border-border-color;
+	}
 	strong {
 		@apply font-bold;
 	}

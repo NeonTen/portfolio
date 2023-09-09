@@ -31,24 +31,24 @@ function Biography() {
 					{/* Content */}
 					<div className="content md:col-span-3 grid gap-6">
 						<p>
-							I am an experienced and passionate WordPress Developer who has good communication skills and ability to communicate with clients. I can create a WordPress Theme from scratch using minimal plugins in order to avoid conflicts.
+							I'm a seasoned WordPress Developer with a strong passion for crafting efficient and visually appealing websites. My expertise includes creating custom WordPress themes from scratch, minimizing plugin usage to ensure seamless functionality.
 						</p>
 						<p>
-							I am also highly trained as a UI/UX Designer. My custom-built websites are fast loading, accessible, follow coding standards, clean, commented and easy to manage.
+							Furthermore, I'm well-versed in UI/UX design, delivering fast-loading, accessible, and standards-compliant websites that are not only clean and well-commented but also incredibly user-friendly.
 						</p>
 						<p className="font-bold">
-							These are some key skills, I am good at:
+							Here's a more concise and focused list of key skills:
 						</p>
 						<ul className="list-inside list-disc space-y-1">
-							<li>A deep understanding of mobile-first and responsive development</li>
-							<li>Ability to convert comprehensive layout and wireframes into working HTML/CSS/WordPress</li>
-							<li>Knowledge of how to interact with RESTful APIs and formats (JSON, XML)</li>
-							<li>Knowledge of version control, specifically Github</li>
-							<li>Knowledge of debugging tools like Firebug, Chrome inspector, etc</li>
-							<li>Ability to work on multiple projects</li>
-							<li>Find and address performance issues</li>
-							<li>Ability to both work autonomously and as part of a team</li>
-							<li>Can code cleaner, shorter and re-usable</li>
+							<li>Mobile-first and responsive development</li>
+							<li>Proficient in converting wireframes into HTML/CSS/WordPress</li>
+							<li>Skilled in interacting with RESTful APIs (JSON, XML)</li>
+							<li>Experienced in version control (GitHub)</li>
+							<li>Proficient with debugging tools (e.g., Firebug, Chrome inspector)</li>
+							<li>Efficiently manages multiple projects</li>
+							<li>Identifies and resolves performance issues</li>
+							<li>Adaptable, excelling both independently and as part of a team</li>
+							<li>Writes clean, concise, and reusable code</li>
 						</ul>
 					</div>
 

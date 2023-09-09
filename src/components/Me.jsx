@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Sajid from '../assets/sajid.png'
 import Pattern1 from '../assets/pattern-1.png'
 import Pattern2 from '../assets/pattern-2.png'
-import CV from '../assets/Sajid-Khan-CV.pdf'
+import WPCV from '../assets/Sajid-Khan-WP-2023.pdf'
+import FrontendCV from '../assets/Sajid-Khan-Frontend-2023.pdf'
+import UICV from '../assets/Sajid-Khan-UI-2023.pdf'
 import { HiOutlineFolderDownload } from 'react-icons/hi'
 import { IoIosArrowDropdown } from 'react-icons/io'
 import {
+    RiGithubFill,
     RiLinkedinFill,
     RiWhatsappFill,
     RiTelegramFill
@@ -13,6 +16,13 @@ import {
 import { Link } from 'react-scroll'
 
 function Me() {
+
+    const [dropdown, setDropdown] = useState(false);
+
+    const openDropdown = () => {
+        setDropdown(!dropdown)
+    }
+
     return (
         <section id="me" className="md:mt-32 mb-20">
             <div className="container">
@@ -26,28 +36,45 @@ function Me() {
                         </div>
                         <p className="text-lg font-bold uppercase mt-14">Full Stack WordPress Developer</p>
                         <p className="mt-4 leading-relaxed opacity-80">
-                            I've been a WordPress developer for 9+ years. I live and breathe WordPress.
+                            {/* I've been a WordPress developer for 9+ years. I live and breathe WordPress. */}
+                            Full Stack WordPress Developer with 9+ years of experience, I live and breathe WordPress.
+                            <br/><br/>
+                            Proficient in both front-end and back-end development, I specialize in crafting versatile, high-performing websites that consistently exceed client expectations.
                         </p>
-                        <ul className="flex gap-6 mt-10 2xl:mt-14 text-sm opacity-80">
+                        <ul className="flex gap-4 mt-10 2xl:mt-14 text-sm opacity-80">
                             <li>
-                                <a className="flex items-center space-x-2 hover:text-secondary" href="https://www.linkedin.com/in/sajid-khan-93687246/" target="_blank" rel="noreferrer">
-                                    <RiLinkedinFill size={20} /><span>LinkedIn</span>
+                                <a className="hover:text-secondary" href="https://github.com/sajid-k" target="_blank" rel="noreferrer">
+                                    <RiGithubFill size={24} />
                                 </a>
                             </li>
                             <li>
-                                <a className="flex items-center space-x-2 hover:text-secondary" href="https://wa.me/+918010335015" target="_blank" rel="noreferrer">
-                                    <RiWhatsappFill size={20} /><span>Whats app</span>
+                                <a className="hover:text-secondary" href="https://www.linkedin.com/in/sajid-khan-93687246/" target="_blank" rel="noreferrer">
+                                    <RiLinkedinFill size={24} />
                                 </a>
                             </li>
                             <li>
-                                <a className="flex items-center space-x-2 hover:text-secondary" href="https://t.me/mrandrason" target="_blank" rel="noreferrer">
-                                    <RiTelegramFill size={20} /><span>Telegram</span>
+                                <a className="hover:text-secondary" href="https://wa.me/+918010335015" target="_blank" rel="noreferrer">
+                                    <RiWhatsappFill size={24} />
+                                </a>
+                            </li>
+                            <li>
+                                <a className="hover:text-secondary" href="https://t.me/mrandrason" target="_blank" rel="noreferrer">
+                                    <RiTelegramFill size={24} />
                                 </a>
                             </li>
                         </ul>
                         <div className="flex md:space-x-8 mt-10 xl:hidden">
                             <Link to="biography" smooth={true} offset={-100} className="hidden md:flex items-center space-x-2 text-sm uppercase opacity-80 hover:text-secondary hover:opacity-100 cursor-pointer"><IoIosArrowDropdown size={24} className="animate-bounce" /> <span>Explore me</span></Link>
-                            <a href={CV} className="button w-48 justify-between" download>Download CV <HiOutlineFolderDownload size={24} /></a>
+                            <div className="relative">
+                                <button className="button w-[200px] justify-between" onClick={openDropdown}>
+                                    Download CV <HiOutlineFolderDownload size={24} />
+                                </button>
+                                { dropdown && <div className="w-full grid bg-white text-sm border border-border-color absolute left-0 ring-0 top-14 -mt-px">
+                                    <a href={WPCV} className='text-sm text-dark/80 uppercase px-4 py-4 border-b border-border-color hover:bg-secondary hover:text-white' download>WordPress developer</a>
+                                    <a href={FrontendCV} className='text-sm text-dark/80 uppercase px-4 py-4 border-b border-border-color hover:bg-secondary hover:text-white' download>Frontend developer</a>
+                                    <a href={UICV} className='text-sm text-dark/80 uppercase px-4 py-4 hover:bg-secondary hover:text-white' download>UI/UX developer</a>
+                                </div> }
+                            </div>
                         </div>
                     </div>
 
@@ -59,7 +86,16 @@ function Me() {
 
                         <div className="hidden xl:flex md:space-x-8 absolute bottom-12 -left-64">
                             <Link to="biography" smooth={true} offset={-100} className="hidden md:flex items-center space-x-2 text-sm uppercase opacity-80 hover:text-secondary hover:opacity-100 cursor-pointer"><IoIosArrowDropdown size={24} className="animate-bounce" /> <span>Explore me</span></Link>
-                            <a href={CV} className="button w-48 justify-between" download>Download CV <HiOutlineFolderDownload size={24} /></a>
+                            <div className="relative">
+                                <button className="button w-[200px] justify-between" onClick={openDropdown}>
+                                    Download CV <HiOutlineFolderDownload size={24} />
+                                </button>
+                                { dropdown && <div className="w-full grid bg-white text-sm border border-border-color absolute left-0 ring-0 top-14 -mt-px">
+                                    <a href={WPCV} className='text-sm text-dark/80 uppercase px-4 py-4 border-b border-border-color hover:bg-secondary hover:text-white' download>WordPress developer</a>
+                                    <a href={FrontendCV} className='text-sm text-dark/80 uppercase px-4 py-4 border-b border-border-color hover:bg-secondary hover:text-white' download>Frontend developer</a>
+                                    <a href={UICV} className='text-sm text-dark/80 uppercase px-4 py-4 hover:bg-secondary hover:text-white' download>UI/UX developer</a>
+                                </div> }
+                            </div>
                         </div>
                     </div>
                 </div>

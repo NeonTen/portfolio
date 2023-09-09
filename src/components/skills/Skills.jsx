@@ -41,7 +41,7 @@ function Biography() {
 								value="60%"
 							/>
 							<Skill
-								name="React"
+								name="React/Next/Sanity"
 								value="70%"
 							/>
 							<Skill
@@ -57,12 +57,12 @@ function Biography() {
 						{/* Right */}
 						<div className="w-full flex flex-col space-y-8">
 							<Skill
-								name="HTML/CSS/SASS/Emmet"
-								value="86%"
+								name="HTML/CSS/SASS"
+								value="95%"
 							/>
 							<Skill
-								name="JS/ES6/JQuery/Ajax"
-								value="60%"
+								name="AlpineJS/JS/ES6/JQuery/Ajax"
+								value="65%"
 							/>
 							<Skill
 								name="Gulp/Webpack/LaravelMix"
@@ -73,7 +73,7 @@ function Biography() {
 								value="90%"
 							/>
 							<Skill
-								name="Bootstrap/Bulma/Tailwind"
+								name="Tailwind/Bootstrap"
 								value="90%"
 							/>
 						</div>

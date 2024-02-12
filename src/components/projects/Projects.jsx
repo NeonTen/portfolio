@@ -1,5 +1,6 @@
 import Heading from '../Heading'
 import Project from './Project'
+import lm from '../../assets/lm.jpg'
 import cof from '../../assets/cof.jpg'
 import sws from '../../assets/sws.jpg'
 import cardway from '../../assets/cardway.jpg'
@@ -33,6 +34,13 @@ function Projects() {
 
 				<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
+					<Project
+						img={lm}
+						name="LearningMole"
+						url="https://learningmole.com/"
+						skills={['HTML5', 'CSS3', 'Tailwind', 'WordPress', 'WooCommerce', 'LearnDash', 'ACF', 'Figma', 'JQuery', 'NPM', 'WPCS']}
+						desc="LearningMole's website has been completely revamped, boasting a stellar performance with a Google PageSpeed Insights score of 95+, ensuring it's SEO-ready and loads blazingly fast."
+					/>
 					<Project
 						img={cof}
 						name="Chic on Fire"

@@ -1,24 +1,22 @@
-import Heading from '../Heading'
-import Skill from './Skill'
+import Heading from "../Heading";
+import Skill from "./Skill";
 
 function Biography() {
 	return (
 		<section id="skills" className="bg-primary/3 dark:bg-white/3 py-20">
 			<div className="container">
-
-				<Heading
-					subheading="Skills"
-					heading="Tools & Technologies"
-				/>
+				<Heading subheading="Skills" heading="Tools & Technologies" />
 
 				<div className="grid md:grid-cols-5 lg:grid-cols-4 gap-10 md:gap-6 items-start">
-
 					{/* Sidebar */}
 					<div className="md:col-span-2 lg:col-auto grid grid-cols-2 md:grid-cols-1 gap-4 items-start">
-						<p className="font-bold uppercase col-span-full md:col-auto">Profiles</p>
+						<p className="font-bold uppercase col-span-full md:col-auto">
+							Profiles
+						</p>
 						<p className="text-sm">WordPress Developer</p>
+						<p className="text-sm">Full Stack Developer</p>
 						<p className="text-sm">UI/UX Developer</p>
-						<p className="text-sm">React Developer</p>
+						{/* <p className="text-sm">React Developer</p> */}
 						<p className="text-sm">Front-End Developer</p>
 						<p className="text-sm">HTML Developer</p>
 						<p className="text-sm">Product Developer</p>
@@ -29,62 +27,29 @@ function Biography() {
 
 					{/* Content */}
 					<div className="content md:col-span-3 grid lg:grid-cols-2 gap-8 md:gap-10 lg:gap-32">
-						
 						{/* Left */}
 						<div className="w-full flex flex-col space-y-8">
-							<Skill
-								name="WordPress"
-								value="84%"
-							/>
-							<Skill
-								name="PHP"
-								value="60%"
-							/>
-							<Skill
-								name="React/Next/Sanity"
-								value="70%"
-							/>
-							<Skill
-								name="Debugging"
-								value="90%"
-							/>
-							<Skill
-								name="Git"
-								value="70%"
-							/>
+							<Skill name="WordPress/PHP" value="84%" />
+							{/* <Skill name="PHP" value="60%" /> */}
+							<Skill name="React/NextJS" value="70%" />
+							<Skill name="SEO/Optimization" value="75%" />
+							<Skill name="Debugging" value="90%" />
+							<Skill name="Git" value="70%" />
 						</div>
 
 						{/* Right */}
 						<div className="w-full flex flex-col space-y-8">
-							<Skill
-								name="HTML/CSS/SASS"
-								value="95%"
-							/>
-							<Skill
-								name="AlpineJS/JS/ES6/JQuery/Ajax"
-								value="65%"
-							/>
-							<Skill
-								name="Gulp/Webpack/LaravelMix"
-								value="80%"
-							/>
-							<Skill
-								name="Photoshop/Sketch/AdobeXD/Figma"
-								value="90%"
-							/>
-							<Skill
-								name="Tailwind/Bootstrap"
-								value="90%"
-							/>
+							<Skill name="HTML/CSS/SASS" value="95%" />
+							<Skill name="AlpineJS/JS/ES6/JQuery/Ajax" value="65%" />
+							<Skill name="Gulp/Webpack/LaravelMix" value="80%" />
+							<Skill name="Photoshop/Sketch/AdobeXD/Figma" value="90%" />
+							<Skill name="Tailwind CSS/Bootstrap" value="90%" />
 						</div>
-
 					</div>
-
 				</div>
-
 			</div>
 		</section>
-	)
+	);
 }
 
-export default Biography
+export default Biography;

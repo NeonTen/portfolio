@@ -1,15 +1,11 @@
-import Heading from "../Heading"
-import Experience from "./Experience"
+import Heading from "../Heading";
+import Experience from "./Experience";
 
 function Expertise() {
-    return (
-        <section id="expertise" className="py-20">
+	return (
+		<section id="expertise" className="py-20">
 			<div className="container">
-
-				<Heading
-					subheading="Expertise"
-					heading="Experience"
-				/>
+				<Heading subheading="Expertise" heading="Experience" />
 
 				{/* <Experience
 					year="2021 - Present"
@@ -29,16 +25,12 @@ function Expertise() {
 					job="Full Stack WordPress Developer"
 					desc="I'm currently employed at Smartworking Solutions, where I specialize in designing and developing WordPress themes from the ground up. Additionally, I enhance and modify existing site functionalities while actively managing testing and maintenance for our website portfolio."
 					company="Smartworking Solutions"
-					siteLink="https://smartworking-solutions.com/"
-					siteName="Website"
 				/>
 				<Experience
 					year="2017 - 2021"
 					job="Full Stack WordPress Developer"
 					desc="I had a significant tenure at MyThemeShop, where I held the role of crafting custom themes known for their speed, SEO optimization, and strict adherence to WordPress Coding Standards. My workflow involved transforming design concepts from Photoshop, XD, or Figma into fully functional WordPress themes."
 					company="MyThemeShop"
-					siteLink="https://mythemeshop.com/"
-					siteName="Website"
 				/>
 				<Experience
 					year="2015 - 2017"
@@ -52,8 +44,6 @@ function Expertise() {
 					desc="I was hired as Senior Software Engineer and my role was to design and develop WordPress Themes or customise the pre-build Theme for Client. Custom and new widget, functionality, troubleshooting and debugging
 					for clients was also part of my job."
 					company="SDLC Lab"
-					siteLink="http://www.sdlclabs.com/"
-					siteName="Website"
 				/>
 				<Experience
 					year="2009 - 2014"
@@ -61,9 +51,9 @@ function Expertise() {
 					desc="Worked as freelance and learned new Technology as PHP, WordPress, HTML/CSS, Photoshop, JS/JQuery/Ajax."
 					last="true"
 				/>
-            </div>
-        </section>
-    )
+			</div>
+		</section>
+	);
 }
 
-export default Expertise
+export default Expertise;

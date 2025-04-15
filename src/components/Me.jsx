@@ -38,28 +38,15 @@ function Me() {
 							Full Stack WordPress Developer
 						</p>
 						<p className="mt-4 leading-relaxed opacity-80">
-							{/* I've been a WordPress developer for 9+ years. I live and breathe WordPress. */}
-							{/* Full Stack WordPress Developer with 10+ years of experience, I
-							live and breathe WordPress.
-							<br />
-							<br />
-							Proficient in both front-end and back-end development, I
-							specialize in crafting versatile, high-performing websites that
-							consistently exceed client expectations. */}
-							With over 10 years of experience, I specialize in crafting
-							high-performance, accessible WordPress websites. I am skilled at
-							optimizing website speed, improving user experience, and
-							developing custom solutions.
-							<br />
-							<br />I am passionate about staying up-to-date with the latest
-							technologies and trends. My commitment to continuous learning
-							allows me to deliver innovative and effective digital solutions.
+						With over 10 years of experience, I build fast, accessible, and user-friendly WordPress websites. I specialize in WooCommerce, SEO, website optimization, and debugging to ensure smooth performance and a great user experience.
+						<br /><br />
+						I stay updated with the latest technologies and trends, allowing me to deliver modern, effective, and high-quality digital solutions.
 						</p>
 						<ul className="flex gap-4 mt-10 2xl:mt-14 text-sm opacity-80">
 							<li>
 								<a
 									className="hover:text-secondary"
-									href="https://github.com/sajid-k"
+									href="https://github.com/smartworkingsolutions/"
 									target="_blank"
 									rel="noreferrer"
 								>
@@ -154,12 +141,12 @@ function Me() {
 						<img
 							className="hidden lg:block absolute top-14 -left-[60px]"
 							src={Pattern1}
-							alt=""
+							alt="background pattern 1"
 						/>
 						<img
 							className="hidden lg:block absolute bottom-44 -right-9"
 							src={Pattern2}
-							alt=""
+							alt="background pattern 2"
 						/>
 
 						<div className="hidden xl:flex md:space-x-8 absolute bottom-12 -left-64">

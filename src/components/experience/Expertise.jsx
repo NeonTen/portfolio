@@ -7,23 +7,10 @@ function Expertise() {
 			<div className="container">
 				<Heading subheading="Expertise" heading="Experience" />
 
-				{/* <Experience
-					year="2021 - Present"
-					job="Freelance"
-					desc="Working on some Freelance projects and contract based job including WordPress and UI/UX development. Also learning new technologies to increase my skills."
-				/> */}
-				{/* <Experience
-					year="2021 - Present"
-					job="Full Stack WordPress Developer"
-					desc="Currently I am working on Fyrefly(startup company) where my role's are to develope new WordPress Themes from scratch, add/modify new functionality into previous sites and testing/maintainence of all sites."
-					company="Fyrefly"
-					siteLink="https://fyrefli.ie/"
-					siteName="Website"
-				/> */}
 				<Experience
-					year="2021 - Present"
+					year="2021 - 2024"
 					job="Full Stack WordPress Developer"
-					desc="I'm currently employed at Smartworking Solutions, where I specialize in designing and developing WordPress themes from the ground up. Additionally, I enhance and modify existing site functionalities while actively managing testing and maintenance for our website portfolio."
+					desc="I worked at Smartworking Solutions, where I designed and developed WordPress themes from scratch. I also enhanced and customized existing site features while managing testing and maintenance for our website portfolio."
 					company="Smartworking Solutions"
 				/>
 				<Experience

@@ -31,24 +31,25 @@ function Biography() {
 					{/* Content */}
 					<div className="content md:col-span-3 grid gap-6">
 						<p>
-							I'm a seasoned WordPress Developer with a strong passion for crafting efficient and visually appealing websites. My expertise includes creating custom WordPress themes from scratch, minimizing plugin usage to ensure seamless functionality.
+							I'm an experienced WordPress Developer with a passion for building fast, user-friendly, and visually appealing websites. I specialize in creating custom WordPress themes from scratch while keeping plugin usage minimal for better performance.
 						</p>
 						<p>
-							Furthermore, I'm well-versed in UI/UX design, delivering fast-loading, accessible, and standards-compliant websites that are not only clean and well-commented but also incredibly user-friendly.
+							I have strong skills in UI/UX design, ensuring websites are fast-loading, accessible, and easy to use. My expertise also includes WooCommerce, SEO, website optimization, and debugging to deliver high-quality solutions.
 						</p>
 						<p className="font-bold">
-							Here's a more concise and focused list of key skills:
+							Key Skills:
 						</p>
 						<ul className="list-inside list-disc space-y-1">
 							<li>Mobile-first and responsive development</li>
-							<li>Proficient in converting wireframes into HTML/CSS/WordPress</li>
-							<li>Skilled in interacting with RESTful APIs (JSON, XML)</li>
-							<li>Experienced in version control (GitHub)</li>
-							<li>Proficient with debugging tools (e.g., Firebug, Chrome inspector)</li>
-							<li>Efficiently manages multiple projects</li>
-							<li>Identifies and resolves performance issues</li>
-							<li>Adaptable, excelling both independently and as part of a team</li>
-							<li>Writes clean, concise, and reusable code</li>
+							<li>Converting wireframes into HTML, CSS, and WordPress</li>
+							<li>WooCommerce setup and customization</li>
+							<li>Working with RESTful APIs (JSON, XML)</li>
+							<li>Version control (GitHub)</li>
+							<li>Debugging tools (Firebug, Chrome Inspector)</li>
+							<li>Website speed optimization and SEO best practices</li>
+							<li>Managing multiple projects efficiently</li>
+							<li>Identifying and fixing performance issues</li>
+							<li>Adapting to different team environments and working independently</li>
 						</ul>
 					</div>
 

@@ -16,8 +16,8 @@ function Expertise() {
 				<Experience
 					year="2017 - 2021"
 					job="Full Stack WordPress Developer"
-					desc="I had a significant tenure at MyThemeShop, where I held the role of crafting custom themes known for their speed, SEO optimization, and strict adherence to WordPress Coding Standards. My workflow involved transforming design concepts from Photoshop, XD, or Figma into fully functional WordPress themes."
-					company="MyThemeShop"
+					desc="Managed the delivery of SEO-focused WordPress themes used by thousands of clients worldwide. Worked closely with design and development teams to ensure projects met client expectations and quality standards. Maintained strong adherence to WordPress coding standards to improve long-term maintainability and scalability, while also mentoring junior developers and contributing to project planning discussions."
+					company="MyThemeShop / RankMath"
 				/>
 				<Experience
 					year="2015 - 2017"

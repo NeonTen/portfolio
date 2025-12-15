@@ -38,9 +38,11 @@ function Me() {
 							Full Stack WordPress Developer
 						</p>
 						<p className="mt-4 leading-relaxed opacity-80">
-						With over 10 years of experience, I build fast, accessible, and user-friendly WordPress websites. I specialize in WooCommerce, SEO, website optimization, and debugging to ensure smooth performance and a great user experience.
+						{/* With over 10 years of experience, I build fast, accessible, and user-friendly WordPress websites. I specialize in WooCommerce, SEO, website optimization, and debugging to ensure smooth performance and a great user experience.
 						<br /><br />
-						I stay updated with the latest technologies and trends, allowing me to deliver modern, effective, and high-quality digital solutions.
+						I stay updated with the latest technologies and trends, allowing me to deliver modern, effective, and high-quality digital solutions. */}
+						
+						WordPress Technical Project Manager with 10+ years of experience delivering high-quality, scalable websites. I work closely with clients, developers, designers, and QA teams to ensure smooth execution, clear communication, and on-time delivery. Strong hands-on experience with WordPress, WooCommerce, and modern project management tools.
 						</p>
 						<ul className="flex gap-4 mt-10 2xl:mt-14 text-sm opacity-80">
 							<li>

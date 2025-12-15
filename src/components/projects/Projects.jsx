@@ -18,6 +18,9 @@ import agency from "../../assets/agency.jpg";
 import magnus from "../../assets/magnus.jpg";
 import news from "../../assets/news.jpg";
 import seekers from "../../assets/seekers.jpg";
+import pt from "../../assets/PT.jpg";
+import cc from "../../assets/CC.jpg";
+import ntls from "../../assets/NLTS.jpg";
 
 function Projects() {
 	return (
@@ -26,6 +29,69 @@ function Projects() {
 				<Heading subheading="Latest Works" heading="My Projects" />
 
 				<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+					<Project
+						img={ntls}
+						name="NewLinksTraining"
+						url="https://www.newlinkstraining.com/"
+						skills={[
+							"HTML5",
+							"CSS3",
+							"Tailwind",
+							"WordPress",
+							"WooCommerce",
+							"ACF",
+							"Guterberg",
+							"Figma",
+							"JQuery",
+							"AlpineJS",
+							"AJAX",
+							"NPM",
+							"WPCS",
+							"SEO",
+						]}
+						desc="Redesigned NewLinksTraining’s website in Figma and fully redeveloped it in WordPress, transforming an outdated design into a clean, modern, and faster experience with improved usability and performance."
+					/>
+					<Project
+						img={cc}
+						name="ConnollyCove"
+						url="https://www.connollycove.com/"
+						skills={[
+							"HTML5",
+							"CSS3",
+							"Tailwind",
+							"WordPress",
+							"ACF",
+							"Guterberg",
+							"Figma",
+							"JQuery",
+							"AlpineJS",
+							"AJAX",
+							"NPM",
+							"WPCS",
+							"SEO",
+						]}
+						desc="Redesigned and redeveloped ConnollyCove’s website to enhance performance and SEO, ensuring faster load times and a seamless experience for content-rich travel pages."
+					/>
+					<Project
+						img={pt}
+						name="ProfileTree"
+						url="https://profiletree.com/"
+						skills={[
+							"HTML5",
+							"CSS3",
+							"Tailwind",
+							"WordPress",
+							"ACF",
+							"Figma",
+							"JQuery",
+							"AlpineJS",
+							"AJAX",
+							"NPM",
+							"WPCS",
+							"SEO",
+						]}
+						desc="Complete redevelopment of ProfileTree with a focus on speed, SEO, and scalability, resulting in faster load times and improved Core Web Vitals."
+					/>
 					<Project
 						img={lm}
 						name="LearningMole"
